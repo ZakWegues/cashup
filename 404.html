@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <title>Página não encontrada | CashUp</title>
+    <style>
+      :root {
+        --accent: #F28C82;
+        --text: #3A2E2A;
+        --bg: #F5EDE6;
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: 'Inter', system-ui, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 40px 24px;
+        -webkit-font-smoothing: antialiased;
+      }
+      .emoji { font-size: 5rem; margin-bottom: 24px; }
+      .brand {
+        font-family: 'Pacifico', cursive;
+        color: var(--accent);
+        font-size: 1.6rem;
+        margin-bottom: 40px;
+        display: block;
+      }
+      h1 {
+        font-size: clamp(1.8rem, 5vw, 2.8rem);
+        font-weight: 800;
+        margin-bottom: 14px;
+        letter-spacing: -0.02em;
+      }
+      p {
+        color: #6B5C56;
+        font-size: 1.05rem;
+        max-width: 440px;
+        margin: 0 auto 36px;
+        line-height: 1.65;
+      }
+      .actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+      a {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 14px 28px;
+        border-radius: 999px;
+        font-weight: 600;
+        font-size: 0.96rem;
+        text-decoration: none;
+        transition: transform 180ms ease, box-shadow 180ms ease;
+      }
+      a:hover { transform: translateY(-2px); }
+      .btn-primary {
+        background: var(--accent);
+        color: #fff;
+        box-shadow: 0 12px 28px rgba(242,140,130,.35);
+      }
+      .btn-primary:hover { box-shadow: 0 18px 36px rgba(242,140,130,.45); }
+      .btn-ghost {
+        border: 2px solid var(--text);
+        color: var(--text);
+      }
+      .btn-ghost:hover { background: var(--text); color: #fff; }
+    </style>
+  </head>
+  <body>
+    <span class="brand">CashUp</span>
+    <div class="emoji">🍰</div>
+    <h1>Página não encontrada</h1>
+    <p>
+      Parece que esse link sumiu como brigadeiro em festa de criança.<br />
+      Mas não se preocupe — temos muito mais por aqui!
+    </p>
+    <div class="actions">
+      <a href="/" class="btn-primary">← Voltar pra home</a>
+      <a href="/blog" class="btn-ghost">Ver o Blog</a>
+    </div>
+  </body>
+</html>
